@@ -1,34 +1,45 @@
 # Xcode-Snippets
 
 
-## Error Message
+### Error Message
+```swift
 #error("<#Message#>")
+```
 
 
-## Warning Message
+### Warning Message
+```swift
 #warning("<#Message#>")
+```
 
-
-## If Error Message
+### If Error Message
+```swift
 #if <#Statment#>
 #error("<#Message#>")
 #endif
+```
 
-
-## Mark
+## Marks
+### Mark
+```swift
 // MARK: - <#Section Heading#>
+```
 
-
-## TODO
+### TODO
+```swift
 // TODO:-  <#Section Heading#>
+```
 
 
-## FIXME
+### FIXME
+```swift
 // FIXME:- <#Section Heading#>
+```
 
 
-
-## Using SwiftUI Preview With UIKIT
+## SwiftUI
+### Using SwiftUI Preview With UIKIT
+```swift
 import SwiftUI
 struct ViewControllerRepresentable: UIViewControllerRepresentable {
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) { }
@@ -43,3 +54,4 @@ struct <#ViewController#>_Previews: PreviewProvider {
             .edgesIgnoringSafeArea(.vertical)
     }
 }
+```
